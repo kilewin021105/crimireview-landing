@@ -466,12 +466,17 @@ body {
 /* Responsive */
 @media (max-width: 768px) {
   .hero {
-    padding: 8rem 1.5rem 4rem;
-    min-height: 70vh;
+    padding: 7rem 1.25rem 4rem;
+    min-height: auto;
+  }
+
+  .hero-content {
+    max-width: 100%;
   }
 
   .hero h1 {
-    font-size: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 1.15;
   }
 
   .hero h1 br {
@@ -479,72 +484,148 @@ body {
   }
 
   .hero-subtitle {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    padding: 0 0.5rem;
+  }
+
+  .features {
+    padding: 4rem 1.25rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.75rem;
+  }
+
+  .subjects {
+    padding: 4rem 1.25rem;
+  }
+
+  .download {
+    padding: 5rem 1.25rem;
+  }
+
+  .download h2 {
+    font-size: 1.75rem;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 480px) {
+  .nav-container {
+    padding: 0 1rem;
+  }
+
   .nav-links a:not(.nav-cta) {
     display: none;
   }
 
-  .hero {
-    padding: 7rem 1.5rem 3rem;
-    min-height: 60vh;
+  .nav-cta {
+    padding: 0.4rem 1rem;
+    font-size: 0.85rem;
   }
 
-  .hero-badge {
-    font-size: 0.7rem;
-    padding: 0.4rem 1rem;
+  .hero {
+    padding: 6rem 1rem 3rem;
   }
 
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.75rem;
   }
 
   .hero-subtitle {
-    font-size: 1rem;
+    font-size: 0.95rem;
+    line-height: 1.6;
   }
 
   .hero-actions {
     flex-direction: column;
     width: 100%;
-    max-width: 280px;
   }
 
-  .btn {
+  .hero-actions .btn {
     width: 100%;
+    max-width: 100%;
     justify-content: center;
   }
 
+  .btn {
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
   .features {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
+  }
+
+  .features-grid {
+    gap: 1rem;
   }
 
   .section-header {
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .section-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .section-header p {
+    font-size: 0.95rem;
   }
 
   .feature-card {
-    padding: 1.5rem;
+    padding: 1.25rem;
+  }
+
+  .feature-card h3 {
+    font-size: 1rem;
+  }
+
+  .feature-card p {
+    font-size: 0.875rem;
   }
 
   .subjects {
-    padding: 4rem 1rem;
+    padding: 3rem 1rem;
+  }
+
+  .subjects-list {
+    gap: 0.5rem;
+  }
+
+  .subject-tag {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
   }
 
   .download {
-    padding: 5rem 1rem;
+    padding: 4rem 1rem;
+  }
+
+  .download h2 {
+    font-size: 1.5rem;
+  }
+
+  .download-content > p {
+    font-size: 0.95rem;
+  }
+
+  .footer {
+    padding: 3rem 1rem 1.5rem;
   }
 
   .footer-content {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 1.5rem;
   }
 
   .footer-brand {
     max-width: 100%;
+  }
+
+  .footer-links {
+    gap: 1.5rem;
   }
 }
 
