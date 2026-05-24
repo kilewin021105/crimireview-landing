@@ -1,0 +1,44 @@
+<svg width="256" height="556" viewBox="0 0 256 556" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="256" height="556" fill="#0A0F1A"/>
+  
+  <!-- Status bar -->
+  <rect y="0" width="256" height="40" fill="#141B2D"/>
+  <text x="128" y="26" text-anchor="middle" fill="#9CA3AF" font-family="Inter, sans-serif" font-size="12">9:41</text>
+  
+  <!-- Header -->
+  <rect y="40" width="256" height="60" fill="#141B2D"/>
+  <text x="24" y="78" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="20" font-weight="600">CrimiReview</text>
+  
+  <!-- Welcome Card -->
+  <rect x="16" y="116" width="224" height="100" rx="16" fill="#141B2D"/>
+  <text x="32" y="148" fill="#9CA3AF" font-family="Inter, sans-serif" font-size="12">Welcome back,</text>
+  <text x="32" y="172" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="18" font-weight="600">Student</text>
+  <text x="32" y="200" fill="#8B5CF6" font-family="Inter, sans-serif" font-size="13">Continue your streak!</text>
+  
+  <!-- Daily Challenge Card -->
+  <rect x="16" y="232" width="224" height="80" rx="16" fill="url(#gradient1)"/>
+  <text x="32" y="264" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="14" font-weight="600">Daily Challenge</text>
+  <text x="32" y="288" fill="rgba(255,255,255,0.8)" font-family="Inter, sans-serif" font-size="12">Complete today's quiz</text>
+  
+  <!-- Subjects Grid -->
+  <text x="16" y="348" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="16" font-weight="600">Subjects</text>
+  
+  <rect x="16" y="364" width="106" height="70" rx="12" fill="#141B2D"/>
+  <text x="24" y="404" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="11">Criminal Law</text>
+  
+  <rect x="134" y="364" width="106" height="70" rx="12" fill="#141B2D"/>
+  <text x="142" y="404" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="11">Criminalistics</text>
+  
+  <rect x="16" y="446" width="106" height="70" rx="12" fill="#141B2D"/>
+  <text x="24" y="486" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="11">Law Enforce.</text>
+  
+  <rect x="134" y="446" width="106" height="70" rx="12" fill="#141B2D"/>
+  <text x="142" y="486" fill="#F5F5F5" font-family="Inter, sans-serif" font-size="11">Corrections</text>
+  
+  <defs>
+    <linearGradient id="gradient1" x1="16" y1="232" x2="240" y2="312" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#667eea"/>
+      <stop offset="1" stop-color="#764ba2"/>
+    </linearGradient>
+  </defs>
+</svg>
