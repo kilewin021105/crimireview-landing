@@ -1,12 +1,13 @@
 /* Hallmark · pre-emit critique: P5 H4 E5 S4 R5 V4 */
 
 :root {
-  --color-bg: #0A0F1A;
-  --color-surface: #141B2D;
-  --color-surface-hover: #1E2640;
-  --color-accent: #8B5CF6;
-  --color-accent-light: #A78BFA;
-  --color-accent-glow: rgba(139, 92, 246, 0.15);
+  --color-bg: #0A0A0B;
+  --color-surface: #151517;
+  --color-surface-hover: #1F1F22;
+  /* The logo's red (app: AppPalette, dark mode). */
+  --color-accent: #E8192C;
+  --color-accent-light: #FF4D5A;
+  --color-accent-glow: rgba(232, 25, 44, 0.15);
   --color-text: #F5F5F5;
   --color-text-muted: #9CA3AF;
   --color-border: rgba(255, 255, 255, 0.08);
@@ -45,7 +46,7 @@ body {
   right: 0;
   z-index: 100;
   padding: 1rem 0;
-  background: rgba(10, 15, 26, 0.8);
+  background: rgba(10, 10, 11, 0.8);
   backdrop-filter: blur(12px);
   border-bottom: 1px solid var(--color-border);
 }
@@ -174,7 +175,7 @@ body {
   font-size: 0.8rem;
   font-weight: 500;
   margin-bottom: 2rem;
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(232, 25, 44, 0.2);
   text-transform: uppercase;
   letter-spacing: 0.05em;
 }
@@ -308,7 +309,7 @@ body {
 
 .feature-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(139, 92, 246, 0.3);
+  border-color: rgba(232, 25, 44, 0.3);
 }
 
 .feature-icon {

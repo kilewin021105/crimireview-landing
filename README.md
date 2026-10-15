@@ -18,6 +18,10 @@ A clean, minimal landing page for the CrimiReview app - a criminology board exam
 - Mobile responsive
 - GitHub Pages ready
 
+## Branding
+
+Same as the app: the CrimiReview logo (`assets/logo.png`, `favicon.png`, `apple-touch-icon.png`, all made from the app's `assets/icon/logo_original.png`) on black, with the logo's red (`--color-accent: #E8192C`) for buttons and highlights.
+
 ## Deployment
 
 The live site is https://www.crimireview.app, deployed by Vercel on every push to `main` (a GitHub Pages copy also builds at https://kilewin021105.github.io/crimireview-landing/).
